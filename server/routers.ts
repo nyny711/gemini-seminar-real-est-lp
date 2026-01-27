@@ -113,7 +113,7 @@ ${seminarInfo.date} ${seminarInfo.time}`;
           // 申込者向け自動返信メール
           const userEmailText = `${input.name} 様
 
-この度は、anyenv株式会社主催「製造業DXウェビナー 営業改革シリーズ」にお申し込みいただき、認にありがとうございます。
+この度は、anyenv株式会社主催「不動産DXウェビナー 営業改革シリーズ」にお申し込みいただき、誠にありがとうございます。
 
 以下の内容で登録を受け付けました。
 
@@ -149,8 +149,8 @@ Web: https://anyenv-inc.com
     <p style="font-size: 16px;">${input.name} 様</p>
     
     <p>この度は、anyenv株式会社主催<br>
-    <strong>「製造業DXウェビナー 営業改革シリーズ」</strong><br>
-    にお申し込みいただき、認にありがとうございます。</p>
+    <strong>「不動産DXウェビナー 営業改革シリーズ」</strong><br>
+    にお申し込みいただき、誠にありがとうございます。</p>
     
     <p>以下の内容で登録を受け付けました。</p>
     
