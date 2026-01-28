@@ -26,7 +26,7 @@ export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
 /**
- * セミナー登録テーブル
+ * セミナー申込情報テーブル
  */
 export const seminarRegistrations = mysqlTable("seminar_registrations", {
   id: int("id").autoincrement().primaryKey(),

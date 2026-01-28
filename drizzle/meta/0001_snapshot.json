@@ -1,8 +1,8 @@
 {
   "version": "5",
   "dialect": "mysql",
-  "id": "b82d99df-9026-43e4-bd6a-16e09a8a2291",
-  "prevId": "c2f7c395-95e0-4943-9e66-7e675f82e7cc",
+  "id": "f9785407-81d7-476b-97f0-d0cc8538c74f",
+  "prevId": "7e9b3504-60da-4bc7-9207-704aead2c02c",
   "tables": {
     "seminar_registrations": {
       "name": "seminar_registrations",
@@ -28,6 +28,13 @@
           "notNull": true,
           "autoincrement": false
         },
+        "position": {
+          "name": "position",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
         "email": {
           "name": "email",
           "type": "varchar(320)",
@@ -39,11 +46,11 @@
           "name": "phone",
           "type": "varchar(20)",
           "primaryKey": false,
-          "notNull": false,
+          "notNull": true,
           "autoincrement": false
         },
-        "message": {
-          "name": "message",
+        "challenge": {
+          "name": "challenge",
           "type": "text",
           "primaryKey": false,
           "notNull": false,
